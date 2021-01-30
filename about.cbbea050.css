@@ -1,0 +1,103 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.title {
+  color: #F68A10;
+}
+
+.subtitle {
+  padding: 0.5em;
+  color: #FFBE74;
+  margin-bottom: 0.5rem !important;
+}
+
+.background {
+  color: #bfbfbf;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5em;
+}
+.background:first-of-type {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.background:last-of-type {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.cool-bg {
+  background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+}
+.cool-bg:nth-child(even) {
+  background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.model-container {
+  width: 100%;
+  height: 150px;
+}
+@media screen and (max-width: 768px) {
+  .model-container {
+    height: 300px;
+  }
+}
+
+model-viewer {
+  --poster-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.glide {
+  display: flex;
+}
+.glide li {
+  margin: auto;
+}
+
+.empresa picture {
+  display: flex;
+}
+.empresa img {
+  margin: auto;
+  max-height: 160px;
+}
+
+p {
+  text-align: justify;
+}
+
+.grow-p {
+  display: flex;
+  flex-direction: column;
+}
+.grow-p p {
+  flex-grow: 1;
+}
+
+.background picture {
+  display: block;
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+.background picture img {
+  width: 100%;
+}
+
+.background:hover picture {
+  filter: grayscale(0);
+}
+/*# sourceMappingURL=about.cbbea050.css.map */

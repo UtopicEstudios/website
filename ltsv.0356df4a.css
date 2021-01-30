@@ -1,0 +1,103 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#torre-poster {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("poster.aeb7a2de.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+model-viewer {
+  width: 100%;
+  min-height: 500px;
+  --poster-color: transparent;
+}
+
+.ltsv .logo {
+  width: 150px;
+  display: block;
+  margin: 30px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#c {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.view {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  margin: auto;
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .ltsv {
+    padding: 0 !important;
+  }
+}
+@media screen and (min-width: 769px) {
+  .carta.encima {
+    margin-left: -50% !important;
+    z-index: -1;
+  }
+
+  .carta {
+    background-color: rgba(10, 10, 10, 0.3);
+  }
+}
+.carta-heading {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 0.75em 1em;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.carta-heading .title {
+  color: #f69221;
+}
+
+.carta-content {
+  flex-grow: 1;
+  padding: 1.25rem;
+  color: #bfbfbf;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+#dyn-bg {
+  --vanta-background-color: 0x0f0f0f;
+  --vanta-color: 0x00f0f0;
+}
+
+.view > iframe {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  mix-blend-mode: hue;
+  min-height: 400px;
+}
+/*# sourceMappingURL=ltsv.0356df4a.css.map */

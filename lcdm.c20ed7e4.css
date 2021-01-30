@@ -1,0 +1,74 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#c {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5555;
+}
+
+#cc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.lcdm {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+}
+.lcdm .column {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  margin: 10px;
+}
+.lcdm .column p {
+  text-align: justify;
+  color: #bfbfbf;
+}
+.lcdm .column .title {
+  color: #F68A10;
+}
+
+#dyn-bg {
+  --vanta-background-color: 0x0f0f0f;
+  --vanta-color: 0x000000;
+}
+
+.cube {
+  width: 10vw;
+  max-width: 100px;
+}
+.cube.is-4, .cube.is-2, .cube.is-3 {
+  float: right;
+  margin: 1em;
+}
+
+.container-puzzle {
+  max-width: 50vw;
+}
+
+.puzzle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.puzzle-logo {
+  z-index: 33;
+  position: relative;
+}
+/*# sourceMappingURL=lcdm.c20ed7e4.css.map */

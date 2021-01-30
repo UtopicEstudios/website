@@ -1,0 +1,111 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.title {
+  color: #F68A10;
+}
+
+.subtitle {
+  padding: 0.5em;
+  color: #F68A10;
+  text-shadow: 1px 1px 1px black;
+}
+
+.column.background {
+  color: #bfbfbf;
+  background-color: rgba(10, 10, 10, 0.3);
+  padding: 0.5em;
+}
+.column.background:first-of-type {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.column.background:last-of-type {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.cool-bg {
+  background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+}
+.cool-bg:nth-child(even) {
+  background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+video.background {
+  position: fixed;
+  z-index: -1;
+  filter: blur(10px);
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  filter: drop-shadow(20px 20px 8px #000);
+}
+.container .section:first-of-type {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.kitron-video {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .kitron-video {
+    margin: 10px;
+    max-width: 350px;
+    float: right;
+  }
+}
+@media screen and (max-width: 768px) {
+  .kitron-video {
+    margin: 0;
+  }
+}
+
+.people {
+  order: -1;
+}
+.people img {
+  max-height: 30vh;
+}
+
+.personas {
+  display: flex;
+}
+.personas img {
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-height: 120px;
+  padding-top: 10px;
+}
+
+.section {
+  padding: 1rem 1.5rem;
+}
+/*# sourceMappingURL=kitron.2272081e.css.map */
