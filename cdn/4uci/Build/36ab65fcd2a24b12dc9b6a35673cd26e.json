@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Foruci",
+"productVersion": "0.1",
+"dataUrl": "74bbc3c72e24f166abcb3d67a4a2c450.unityweb",
+"wasmCodeUrl": "fa2cb7d0546bb2a9dcf4309d072d01c4.unityweb",
+"wasmFrameworkUrl": "20e1c406b6a6c92a4134b8faf1c17045.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.28f1"
+}
